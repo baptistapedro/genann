@@ -1,0 +1,7 @@
+image: pedbap/genann-fuzz
+duration: 3000
+project: genannfuzz
+target: genann-fuzz
+cmds:
+  - cmd: /fuzz @@
+    afl: true
